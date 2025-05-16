@@ -10,7 +10,7 @@ const App = () => {
     if (inputValue) {
       try {
         const res = await fetch(
-          `https://www.omdbapi.com/?s=${inputValue}&apikey=<your-movie-api-key>`
+          `https://www.omdbapi.com/?s=${inputValue}&apikey=<your-api-key>`
         );
         const jsonRes = await res.json();
         setSearchMovies(jsonRes);

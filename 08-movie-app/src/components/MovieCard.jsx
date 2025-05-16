@@ -1,6 +1,5 @@
 const MovieCard = ({ values }) => {
   const { searchMovies } = values;
-  console.log(searchMovies.Search);
   return (
     <div>
       <div className="flex flex-wrap px-4 lg:px-10 ">
